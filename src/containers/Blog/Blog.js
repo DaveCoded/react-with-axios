@@ -37,7 +37,7 @@ class Blog extends Component {
           key={post.id}
           title={post.title}
           author={post.author}
-          clicked={() => this.postSelected(post.id)}
+          clicked={() => this.postSelectedHandler(post.id)}
         />
       );
     });
